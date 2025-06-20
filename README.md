@@ -1,52 +1,69 @@
-🚀 Práctica de Divisiones - GitHub Pages
-Cómo Desplegar
+📚 Proyecto de Práctica de Divisiones Matemáticas
 
-    Requisitos:
+¡Bienvenido al proyecto de Práctica de Divisiones Matemáticas! Esta aplicación web ayuda a los estudiantes a mejorar sus habilidades en divisiones enteras de forma interactiva.
+🚀 Características Principales
 
-        Repositorio llamado [tu-usuario].github.io (ej: garijaen.github.io)
+✔️ Generación aleatoria de divisiones
+✔️ Validación de respuestas (cociente y residuo)
+✔️ Persistencia de operaciones (localStorage)
+✔️ Diseño responsive para móviles y desktop
+✔️ Interfaz intuitiva con feedback visual
+🛠️ Tecnologías Utilizadas
 
-        Archivos en la rama main o gh-pages
+    https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white
 
-    Pasos:
+    https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white
+
+    https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black
+
+    https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white
+
+📦 Instalación
+
+    Clona el repositorio:
     bash
 
-# Clona el repositorio
-git clone https://github.com/tu-usuario/tu-usuario.github.io.git
+    git clone https://github.com/tu-usuario/practica-divisiones.git
 
-# Asegúrate de estar en la rama correcta
-git checkout main
+    Abre el archivo index.html en tu navegador.
 
-Estructura obligatoria:
+🎯 Cómo Usar
+
+    La aplicación mostrará una lista de divisiones sin resolver.
+
+    Haz clic en cualquier operación para resolverla.
+
+    Ingresa el cociente y residuo en los campos correspondientes.
+
+    Presiona "Validar" para comprobar tus respuestas.
+
+    Las respuestas correctas se marcarán en verde.
+
+🌐 Despliegue en la Web
+
+Puedes desplegar este proyecto gratis en:
+
+    Vercel
+
+    Netlify
+
+    GitHub Pages
+
+**🔄 Estructura del Proyecto
 text
 
-tu-usuario.github.io/
-├── index.html
-├── index.css
-└── operations.js
+practica-divisiones/
+├── index.html          # Archivo principal
+├── index.css           # Estilos
+├── operations.js       # Lógica de la aplicación
+└── README.md           # Este archivo
 
-Configuración en GitHub:
+**📝 Licencia
 
-    Ve a Settings > Pages
+Este proyecto está bajo la licencia MIT.
 
-    Selecciona:
+💡 ¿Problemas o sugerencias?
+Abre un issue en GitHub.
 
-        Branch: main
-
-        Folder: / (root)
-
-Accede a tu sitio:
-text
-
-    https://tu-usuario.github.io
-
-Solución de Problemas
-
-    Error 404? Verifica:
-
-        El nombre del repositorio es EXACTO [usuario].github.io
-
-        Los archivos están en la raíz de la rama main
-
-        Espera 1-2 minutos después del despliegue
-
-🌐 Demo
+✨ ¡Contribuciones son bienvenidas!
+Haz fork y envía un pull request.
